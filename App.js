@@ -11,10 +11,10 @@ function App() {
         <div className='imgContainer'>
           {Images.map((img, index) =>(
             <img 
-             style = {{border: selectImg === img ? "4px solid green" : ""}}
+             style = {{border: selectImg === img ? "1px solid blue" : "3"}}
              key={index} 
              src={img}
-             alt="Dog"
+             alt="Rose"
              onClick={() => setSelectImg(img)}
              />
             
