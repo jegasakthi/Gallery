@@ -18,16 +18,16 @@ img{
 }
 
 .container{
-  margin: 50px;
+  margin: auto;
   width: 100%;
-  max-width: 840px;
+  max-width: 460px;
 }
 
 
 .container .selected{
   width: 300px;
   height: 300px;
-  margin:  auto 500px ;
+  margin: 0 auto ;
   border: 1px solid hsl(30, 100%, 100%);
 }
 
@@ -37,10 +37,12 @@ img{
   display: inline-flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-top:10px ;
+  padding: 40px 0 0 0;
 }
 
 
-.container .imgContainer{
-  width: 150%;
+.container .imgContainer img{
+  width: 100px;
+  height: 100px;
+  margin: 5px 0 0 0;
 }
